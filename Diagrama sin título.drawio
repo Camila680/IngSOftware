@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="870" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1005,8 +1005,8 @@
             <mxPoint x="530" y="2180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-123" value="Registro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="1875" width="70" height="30" as="geometry" />
+        <mxCell id="nWlLOee9cnAwmwFSmtRJ-123" value="Registrar Usuario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="1875" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-126" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nWlLOee9cnAwmwFSmtRJ-124" target="nWlLOee9cnAwmwFSmtRJ-125">
           <mxGeometry relative="1" as="geometry">
