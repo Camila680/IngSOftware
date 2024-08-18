@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="3969" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2289" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -891,7 +891,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-107" value="Sistema" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1379" width="230" height="975" as="geometry" />
+          <mxGeometry x="200" y="1379" width="230" height="781" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-108" value="El sistema pide los datos de usuario" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="nWlLOee9cnAwmwFSmtRJ-107">
           <mxGeometry x="32.5" y="150" width="115" height="40" as="geometry" />
@@ -935,7 +935,7 @@
           <mxGeometry x="20" y="595" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-115" value="" style="ellipse;html=1;shape=endState;" vertex="1" parent="nWlLOee9cnAwmwFSmtRJ-107">
-          <mxGeometry x="85" y="745" width="30" height="30" as="geometry" />
+          <mxGeometry x="85" y="731" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-117" value="Fin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="nWlLOee9cnAwmwFSmtRJ-107">
           <mxGeometry x="99.99952380952391" y="685" as="geometry">
