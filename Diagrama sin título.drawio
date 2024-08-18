@@ -669,7 +669,7 @@
         <mxCell id="PhDUUgStAlfBUmAMiNLs-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-820" y="2890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhDUUgStAlfBUmAMiNLs-39" value="cerrar Sesión" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PhDUUgStAlfBUmAMiNLs-39" value="Cerrar Sesión" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-795" y="2905" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PhDUUgStAlfBUmAMiNLs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhDUUgStAlfBUmAMiNLs-41" target="PhDUUgStAlfBUmAMiNLs-38">
@@ -678,7 +678,7 @@
         <mxCell id="PhDUUgStAlfBUmAMiNLs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="2790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhDUUgStAlfBUmAMiNLs-42" value="&amp;lt;&amp;lt;Entrada&amp;gt;&amp;gt;&lt;div&gt;----------------------&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PhDUUgStAlfBUmAMiNLs-42" value="&amp;lt;&amp;lt;Entrada&amp;gt;&amp;gt;&lt;div&gt;Identificador del usuario&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="2805" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PhDUUgStAlfBUmAMiNLs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhDUUgStAlfBUmAMiNLs-44" target="PhDUUgStAlfBUmAMiNLs-38">
@@ -687,7 +687,7 @@
         <mxCell id="PhDUUgStAlfBUmAMiNLs-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-675" y="2790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhDUUgStAlfBUmAMiNLs-45" value="&amp;lt;&amp;lt;Objetivo&amp;gt;&amp;gt;&lt;div&gt;Cerrar sesión de cuenta de usuario&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PhDUUgStAlfBUmAMiNLs-45" value="&amp;lt;&amp;lt;Objetivo&amp;gt;&amp;gt;&lt;div&gt;Cerrar sesión de cuenta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-675" y="2805" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PhDUUgStAlfBUmAMiNLs-48" value="Sesión finalizada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
