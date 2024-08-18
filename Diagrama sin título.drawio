@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="1623" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1762" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1161,10 +1161,10 @@
           <mxGeometry x="330" y="215" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vRtUuBec9GXBSq-_KAnF-10" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;Integrantes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="640" y="5" width="80" height="30" as="geometry" />
+          <mxGeometry x="672.5" y="10" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vRtUuBec9GXBSq-_KAnF-11" value="&lt;div style=&quot;text-align: left; font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;- Madrazo Camila&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;- Lucero &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Augusto&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;- Riveros &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pedro&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="610" y="65" width="170" height="30" as="geometry" />
+          <mxGeometry x="627.5" y="65" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vRtUuBec9GXBSq-_KAnF-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66B2FF;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="1146.5" y="35" width="375" height="130" as="geometry" />
