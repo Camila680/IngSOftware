@@ -1057,6 +1057,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Akq9vsdfqQtLr7tNzKjY-3" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nWlLOee9cnAwmwFSmtRJ-107">
+          <mxGeometry x="70" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="PhDUUgStAlfBUmAMiNLs-64" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-1025" y="1332.5" width="140" height="55" as="geometry" />
         </mxCell>
