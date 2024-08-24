@@ -757,7 +757,7 @@
             <mxPoint x="120" y="80" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-75" value="Selecciona publicacion" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-72" vertex="1">
+        <mxCell id="nWlLOee9cnAwmwFSmtRJ-75" value="Solicitar postulación" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-72" vertex="1">
           <mxGeometry x="62.5" y="110" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-76" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-72" target="nWlLOee9cnAwmwFSmtRJ-82" edge="1">
@@ -790,7 +790,7 @@
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-81" value="Sistema" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="210" y="1087.5" width="355" height="982.5" as="geometry" />
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-82" value="El sistema pide el monto" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-81" vertex="1">
+        <mxCell id="nWlLOee9cnAwmwFSmtRJ-82" value="El sistema pide el monto y el vehículo" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-81" vertex="1">
           <mxGeometry x="32.5" y="150" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="58wqRnXftYdmNC_rduwg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" source="nWlLOee9cnAwmwFSmtRJ-83" target="58wqRnXftYdmNC_rduwg-13" edge="1">
@@ -807,12 +807,6 @@
               <mxPoint x="170" y="250" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" source="nWlLOee9cnAwmwFSmtRJ-86" target="nWlLOee9cnAwmwFSmtRJ-88" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-86" value="Se carga en la B.D." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-81" vertex="1">
-          <mxGeometry x="32.5" y="712.5" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" source="nWlLOee9cnAwmwFSmtRJ-88" target="nWlLOee9cnAwmwFSmtRJ-89" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -836,8 +830,10 @@
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-95" value="Regista la postulacion" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-81" vertex="1">
           <mxGeometry x="32.5" y="632.5" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" source="nWlLOee9cnAwmwFSmtRJ-95" target="nWlLOee9cnAwmwFSmtRJ-86" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nWlLOee9cnAwmwFSmtRJ-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" source="nWlLOee9cnAwmwFSmtRJ-95" target="nWlLOee9cnAwmwFSmtRJ-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="712.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vRtUuBec9GXBSq-_KAnF-7" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nWlLOee9cnAwmwFSmtRJ-81" vertex="1">
           <mxGeometry x="90" y="420" width="60" height="30" as="geometry" />
