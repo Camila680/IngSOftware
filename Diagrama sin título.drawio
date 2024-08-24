@@ -575,12 +575,6 @@
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-19" value="Verifica" style="rhombus;whiteSpace=wrap;html=1;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
           <mxGeometry x="50" y="380" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" source="nWlLOee9cnAwmwFSmtRJ-26" target="nWlLOee9cnAwmwFSmtRJ-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-26" value="Se carga en la B.D." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
-          <mxGeometry x="32.5" y="745" width="115" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" source="nWlLOee9cnAwmwFSmtRJ-27" target="nWlLOee9cnAwmwFSmtRJ-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="87.5" y="875" as="targetPoint" />
@@ -603,8 +597,10 @@
         <mxCell id="nWlLOee9cnAwmwFSmtRJ-25" value="Regista la Publicacion" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
           <mxGeometry x="32.5" y="655" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nWlLOee9cnAwmwFSmtRJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" source="nWlLOee9cnAwmwFSmtRJ-25" target="nWlLOee9cnAwmwFSmtRJ-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nWlLOee9cnAwmwFSmtRJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" source="nWlLOee9cnAwmwFSmtRJ-25" target="nWlLOee9cnAwmwFSmtRJ-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="745" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vRtUuBec9GXBSq-_KAnF-9" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
           <mxGeometry x="75" y="435" width="60" height="30" as="geometry" />
@@ -657,8 +653,8 @@
         <mxCell id="58wqRnXftYdmNC_rduwg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" source="9SEzSZ9E1IM1_dfiaKk2-63" target="58wqRnXftYdmNC_rduwg-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SEzSZ9E1IM1_dfiaKk2-63" value="Se muestra un cartel de aviso con el error informando que la publicación no fue creada" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
-          <mxGeometry x="200" y="835" width="150" height="80" as="geometry" />
+        <mxCell id="9SEzSZ9E1IM1_dfiaKk2-63" value="Se muestra un cartel de aviso&lt;div&gt;&quot;La publicación no fue realizada, supero el limite de los 3 envíos activos&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
+          <mxGeometry x="190" y="820" width="160" height="95" as="geometry" />
         </mxCell>
         <mxCell id="58wqRnXftYdmNC_rduwg-3" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="nWlLOee9cnAwmwFSmtRJ-3" vertex="1">
           <mxGeometry x="170" y="765" width="60" height="30" as="geometry" />
