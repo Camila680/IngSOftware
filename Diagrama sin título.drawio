@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="4118" dy="2398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3045" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1642,6 +1642,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-25" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Mapa de navegación de clases&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pmU6DpNqjv1pkcrPJU7v-1">
+          <mxGeometry x="421.72248803827756" y="489.99629629629635" width="370" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="pmU6DpNqjv1pkcrPJU7v-20" value="Validacion de datos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2850.0037320574165" y="-164.99814814814818" width="130" height="30" as="geometry" />
         </mxCell>
@@ -1661,6 +1664,27 @@
               <mxPoint x="3026" y="-240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-26" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Vehículo&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1239.9977777777779" width="326.32" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pmU6DpNqjv1pkcrPJU7v-26">
+          <mxGeometry y="50" width="326.32" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-28" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;tipo : String&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;capacidadVolumen : float&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;capacidadPeso : float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="pmU6DpNqjv1pkcrPJU7v-26">
+          <mxGeometry y="53" width="326.32" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-29" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Usuario&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1459.9977777777779" width="326.32" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pmU6DpNqjv1pkcrPJU7v-29">
+          <mxGeometry y="50" width="326.32" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-31" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;- nombre : String&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;- apellido :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;- email :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- contraseña : String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- vehículo : Vehículo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- calificaciones : List&amp;lt;Calificacion&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- rol : String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nivelDeResponsabilidad : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ resgistrarse()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ iniciarSesion()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ califica ()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ publicarEnvio()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ postularse ()&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="pmU6DpNqjv1pkcrPJU7v-29">
+          <mxGeometry y="53" width="326.32" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="pmU6DpNqjv1pkcrPJU7v-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1680" width="326.32" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
