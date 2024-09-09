@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="4824" dy="2397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1657,7 +1657,7 @@
           <mxGeometry x="840.0032057416265" y="279.9999999999999" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pmU6DpNqjv1pkcrPJU7v-20" value="Validacion de datos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2850.0037320574165" y="-164.99814814814818" width="130" height="30" as="geometry" />
+          <mxGeometry x="2850.0037320574165" y="-219.99814814814818" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pmU6DpNqjv1pkcrPJU7v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.188;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CGwXmmcKnCw6UkCRPpBH-22" target="pmU6DpNqjv1pkcrPJU7v-20" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1673,9 +1673,7 @@
             <mxPoint x="3105.5" y="-145" as="sourcePoint" />
             <mxPoint x="3038" y="-199.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3026" y="-150" />
-              <mxPoint x="3026" y="-240" />
-              <mxPoint x="3025" y="-240" />
+              <mxPoint x="3025" y="-205" />
             </Array>
           </mxGeometry>
         </mxCell>
