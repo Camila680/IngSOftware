@@ -2283,6 +2283,12 @@
         <mxCell id="TDMH1IOYzymj8p9g2Vop-117" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Datos postulacion&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2359.9999999999995" y="2101.75" width="131.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TDMH1IOYzymj8p9g2Vop-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TDMH1IOYzymj8p9g2Vop-118" target="TDMH1IOYzymj8p9g2Vop-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TDMH1IOYzymj8p9g2Vop-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TDMH1IOYzymj8p9g2Vop-118" target="TDMH1IOYzymj8p9g2Vop-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TDMH1IOYzymj8p9g2Vop-118" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2811.999999999999" y="2070.75" width="258" height="90" as="geometry" />
         </mxCell>
