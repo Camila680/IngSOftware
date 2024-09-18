@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="2764" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1807" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2658,10 +2658,10 @@
         <mxCell id="qFAmpzs7wCBTN9h4rh_5-31" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=default;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
           <mxGeometry x="348.5" y="305.8536585365853" width="13.666666666666668" height="55.609756097560975" as="geometry" />
         </mxCell>
-        <mxCell id="qFAmpzs7wCBTN9h4rh_5-33" value="Pb,publicacion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
+        <mxCell id="qFAmpzs7wCBTN9h4rh_5-33" value="Pb: publicacion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
           <mxGeometry x="153.76366666666698" y="69.51219512195121" width="82" height="41.70731707317073" as="geometry" />
         </mxCell>
-        <mxCell id="qFAmpzs7wCBTN9h4rh_5-34" value="ps.Postulacion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
+        <mxCell id="qFAmpzs7wCBTN9h4rh_5-34" value="Ps: Postulacion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
           <mxGeometry x="314.3333333333333" y="69.51219512195121" width="82" height="41.70731707317073" as="geometry" />
         </mxCell>
         <mxCell id="edfYGaCJZToouQRuqrzm-24" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;1:Seleccionar Publicacion (publicacion)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="edfYGaCJZToouQRuqrzm-1">
