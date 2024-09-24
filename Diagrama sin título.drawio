@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="2029" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4118" dy="2398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2996,6 +2996,12 @@
             <mxPoint x="476.55413793103446" y="717.3300000000003" as="sourcePoint" />
             <mxPoint x="260" y="717" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yi8ceNDYdT4HuRmqO5jK-118" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Diagrama de Secuencia de Publicar&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4890.002488038277" y="949.9962962962964" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yi8ceNDYdT4HuRmqO5jK-119" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Diagrama de Secuencia de Registro&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4885.002488038277" y="1949.9962962962964" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
