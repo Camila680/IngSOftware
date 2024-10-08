@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="8EGf4Su3iBePoX2ZfNUF">
-    <mxGraphModel dx="7036" dy="4774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2267" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1382,7 +1382,7 @@
         <mxCell id="9SEzSZ9E1IM1_dfiaKk2-46" value="&lt;h3 style=&quot;font-size: 23px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&quot;Publicar Necesidad&quot;&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;font-size: 23px;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Pre-Condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 23px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario debe estar registrado e iniciar sesión.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario debe tener permitido crear una publicación (dependiendo de su nivel de calificación).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario no debe haber alcanzado el límite de publicaciones permitidas.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 23px;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Post-condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 23px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;La necesidad de envío ha sido publicada y está disponible para que otros usuarios se postulen.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 23px;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Flujo de eventos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 23px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario accede a la sección de publicaciones y selecciona la opción &quot;Publicar Necesidad&quot;.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El sistema verifica si el usuario puede crear una nueva publicación.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Si es posible, el sistema muestra un formulario para especificar los detalles de la necesidad de envío.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario debe ingresar:&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Descripción del paquete (incluyendo volumen y peso).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Lugar de origen.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Lugar de destino.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El usuario presiona &quot;Publicar&quot;.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El sistema valida los datos del formulario.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Si los datos del formulario son válidos, el sistema crea la publicación y la almacena en la base de datos.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;El sistema confirma la publicación y la muestra en la lista de publicaciones activas.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;font-size: 23px;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Escenarios alternativos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;3.1. Si el usuario ha superado el número permitido de publicaciones, el sistema muestra un mensaje de error indicando que no puede crear más publicaciones hasta que se cierre una existente.&lt;br&gt;6.1. Si los datos no son válidos, los campos con datos erróneos se mostrarán en rojo especificando dónde está el error.&lt;br&gt;6.2. El sistema permite que el usuario corrija los errores y vuelve al paso 4.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="-755" width="820" height="1095" as="geometry" />
         </mxCell>
-        <mxCell id="MhGrwrx_KWFTHHP2Q3UW-1" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&quot;Postular Publicación&quot;&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pre-Condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario debe estar registrado e iniciar sesión.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario debe estar habilitado para postularse (dependiendo de su nivel de calificación).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Debe haber al menos una publicación disponible para postularse.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario no debe estar postulado en otra publicación al mismo tiempo.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Post-condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;La postulación ha sido realizada y el dueño de la publicación puede ver la oferta.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Flujo de eventos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario navega a la lista de publicaciones activas.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario selecciona una publicación en la que esté interesado y accede a los detalles de la misma.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema verifica si el usuario no está postulado en otra publicación.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Si es posible, el sistema muestra los detalles de la publicación y un formulario para que el usuario pueda postularse.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario ingresa:&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Monto que cobrará para cubrir el transporte.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario presiona &quot;Postularse&quot;.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema valida los datos del formulario.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Si los datos del formulario son válidos, el sistema guarda la postulación en la base de datos.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema confirma la postulación y la muestra al dueño de la publicación.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Escenarios alternativos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;3.1. Si el usuario ya está postulado en otra publicación, el sistema muestra un mensaje de error indicando que no puede postularse en más de una publicación a la vez.&lt;br&gt;7.1. Si los datos no son válidos, los campos con datos erróneos se mostrarán en rojo especificando dónde está el error.&lt;br&gt;7.2. El sistema permite que el usuario corrija los errores y vuelve al paso 5.&lt;/font&gt;&lt;/p&gt;&lt;/h3&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="MhGrwrx_KWFTHHP2Q3UW-1" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&quot;Postular Publicación&quot;&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pre-Condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario debe estar registrado e iniciar sesión.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario debe estar habilitado para postularse (dependiendo de su nivel de calificación).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Debe haber al menos una publicación disponible para postularse.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario no debe estar postulado en otra publicación al mismo tiempo.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Post-condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;La postulación ha sido realizada y el dueño de la publicación puede ver la oferta.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Flujo de eventos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario navega a la lista de publicaciones activas.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario selecciona una publicación en la que esté interesado y accede a los detalles de la misma.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema verifica si el usuario no está postulado en otra publicación.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Si es posible, el sistema muestra los detalles de la publicación y un formulario para que el usuario pueda postularse.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario ingresa:&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Monto que cobrará para cubrir el transporte.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Selecciona vehiculo (Si es que posee mas de uno).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El usuario presiona &quot;Postularse&quot;.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema valida los datos del formulario.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;Si los datos del formulario son válidos, el sistema guarda la postulación en la base de datos.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;El sistema confirma la postulación y la muestra al dueño de la publicación.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Escenarios alternativos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px; font-weight: normal;&quot;&gt;3.1. Si el usuario ya está postulado en otra publicación, el sistema muestra un mensaje de error indicando que no puede postularse en más de una publicación a la vez.&lt;br&gt;7.1. Si los datos no son válidos, los campos con datos erróneos se mostrarán en rojo especificando dónde está el error.&lt;br&gt;7.2. El sistema permite que el usuario corrija los errores y vuelve al paso 5.&lt;/font&gt;&lt;/p&gt;&lt;/h3&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="2170" width="820" height="860" as="geometry" />
         </mxCell>
         <mxCell id="MhGrwrx_KWFTHHP2Q3UW-2" value="&lt;h3 style=&quot;font-size: 23px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&quot;Registrar Usuario&quot;&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 23px;&quot;&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Pre-Condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El interesado no debe estar registrado previamente en el sistema.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El interesado debe tener acceso a un correo electrónico válido.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Post-condición:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El usuario ha sido registrado y su cuenta ha sido creada en la base de datos.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El usuario recibe un mensaje de bienvenida y puede iniciar sesión.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Flujo de eventos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;ol style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El interesado accede a la página de registro.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El sistema muestra un formulario de registro.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El interesado debe ingresar:&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Nombre.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Apellido.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Correo electrónico.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Número de teléfono.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Contraseña de usuario.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Edad.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Vehículo (opcional).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El interesado presiona &quot;Aceptar&quot;.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El sistema valida los datos del formulario, asegurándose de que:&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El correo electrónico no esté registrado previamente.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;La contraseña cumpla con los requisitos de seguridad (por ejemplo, longitud mínima, caracteres especiales, etc.).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Todos los campos obligatorios estén completos.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;Si los datos del formulario son válidos, el sistema crea la cuenta, guarda los datos del registro y envía un correo electrónico de confirmación al usuario.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;El sistema muestra un mensaje de bienvenida indicando que el registro fue exitoso y permite al usuario iniciar sesión.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;&quot;&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Escenarios alternativos:&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;5.1. Si el correo electrónico ya está registrado en el sistema, el sistema muestra un mensaje de error indicando que la cuenta ya existe.&lt;br&gt;5.2. Si la contraseña no cumple con los requisitos de seguridad, el sistema muestra un mensaje de error indicando los requisitos que no se cumplen.&lt;br&gt;5.3. Si hay otros errores en el formulario, el sistema resalta los campos con errores en rojo y especifica dónde está el problema.&lt;br&gt;5.4. El sistema permite que el usuario corrija los errores y vuelve al paso 3.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 23px;&quot;&gt;6.1. Si el correo electrónico no es válido o no se puede enviar el correo de confirmación, el sistema muestra un mensaje de error indicando que debe proporcionar un correo electrónico válido.&lt;br&gt;6.2. Si no se puede crear la cuenta por un problema del sistema, se muestra un mensaje de error general, y se solicita al usuario intentar nuevamente más tarde.&lt;/font&gt;&lt;/p&gt;&lt;/h3&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -1992,29 +1992,34 @@
             <mxPoint x="-2" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="p_SjjlD_5H0Ur4b5-hFx-1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="p_SjjlD_5H0Ur4b5-hFx-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="mAtKPvB8SV29goGC4XEF-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2700" y="2140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mAtKPvB8SV29goGC4XEF-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3087.3199999999997" y="2150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="8EdaSbIvQU8G8Ma4F1ci-96">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="8EdaSbIvQU8G8Ma4F1ci-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="p_SjjlD_5H0Ur4b5-hFx-13">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mAtKPvB8SV29goGC4XEF-59" target="p_SjjlD_5H0Ur4b5-hFx-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3216" y="2391" />
               <mxPoint x="3362" y="2391" />
               <mxPoint x="3362" y="2221" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mAtKPvB8SV29goGC4XEF-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2620" y="2391.3500000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mAtKPvB8SV29goGC4XEF-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -2799,7 +2804,7 @@
         <mxCell id="d-5tPpx8FVJAvrJ0YBJi-61" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;verifDatos()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5533.322133698503" y="2704.996666666667" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p0raOmN7WWIzzdsfmM-2-1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p0raOmN7WWIzzdsfmM-2-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3345.3199999999997" y="2740" as="targetPoint" />
           </mxGeometry>
@@ -3491,144 +3496,174 @@
         <mxCell id="F0cpHXWZRVUmFxbsyi0U-65" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;8:Insertar()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="8296.655553470919" y="2580" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3506.9999999999995" y="2346.35" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-2" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-2" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="3658.4999999999995" y="2374.85" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="p_SjjlD_5H0Ur4b5-hFx-2">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="p_SjjlD_5H0Ur4b5-hFx-2" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Mis publicaiones&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Mis Postulaciones&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3516.9999999999995" y="2377.35" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3506.9999999999995" y="2175.81" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-14" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-14" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="3658.4999999999995" y="2204.31" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="p_SjjlD_5H0Ur4b5-hFx-14">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="p_SjjlD_5H0Ur4b5-hFx-14" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Mis publicaiones&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Mis Publicaciones&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3516.9999999999995" y="2206.81" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p_SjjlD_5H0Ur4b5-hFx-24">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p_SjjlD_5H0Ur4b5-hFx-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2487.8199999999997" y="2726.21" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_SjjlD_5H0Ur4b5-hFx-24">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p_SjjlD_5H0Ur4b5-hFx-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="2358.8199999999997" y="2511.21" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-25" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-25" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="2510.3199999999997" y="2539.71" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="p_SjjlD_5H0Ur4b5-hFx-25">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="p_SjjlD_5H0Ur4b5-hFx-25" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Crear Postulacion&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p_SjjlD_5H0Ur4b5-hFx-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Crear Postulacion&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2368.8199999999997" y="2542.21" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.2097506594614321;endAngle=0.9720536394574362;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.2097506594614321;endAngle=0.9720536394574362;" parent="1" vertex="1">
           <mxGeometry x="2260" y="2563.71" width="203" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-64" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-64" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2331.5000000000005" y="2622" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-66" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;" edge="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-66" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="2463.18" y="2629" as="sourcePoint" />
             <mxPoint x="2455.53" y="2608.21" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3206.729999999999" y="2747.5" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-70" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-70" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="3358.229999999999" y="2776" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="8EdaSbIvQU8G8Ma4F1ci-70">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="8EdaSbIvQU8G8Ma4F1ci-70" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-72" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Error de proceso&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-72" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Error de proceso&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3216.729999999999" y="2778.5" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-73" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.2097506594614321;endAngle=0.9720536394574362;" vertex="1" parent="1">
-          <mxGeometry x="3119.41" y="2576" width="203" height="138" as="geometry" />
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-73" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.014285457105234005;endAngle=0.7751096744537642;" parent="1" vertex="1">
+          <mxGeometry x="3367.8199999999997" y="2550" width="203" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-74" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-74" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3206.32" y="2635.96" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-75" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;" edge="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-75" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;exitX=-0.001;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="8EdaSbIvQU8G8Ma4F1ci-73">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="3322.41" y="2641" as="sourcePoint" />
-            <mxPoint x="3314.94" y="2620.5" as="targetPoint" />
+            <mxPoint x="3380" y="2622" as="sourcePoint" />
+            <mxPoint x="3372.59" y="2601" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="2594.16" y="2040" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-84" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-84" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="2745.66" y="2068.5" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="8EdaSbIvQU8G8Ma4F1ci-84">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="8EdaSbIvQU8G8Ma4F1ci-84" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-86" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Iniciar Sesion&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-86" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Iniciar Sesion&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2604.16" y="2071" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="2968.3199999999997" y="2043" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-88" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-88" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="3119.8199999999997" y="2071.5" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-89" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="8EdaSbIvQU8G8Ma4F1ci-88">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-89" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="8EdaSbIvQU8G8Ma4F1ci-88" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-90" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Registrarse&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-90" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Registrarse&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2978.3199999999997" y="2074" width="131.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-91" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.4685835209054995;endAngle=0.23994032026634074;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-91" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.4685835209054995;endAngle=0.23994032026634074;" parent="1" vertex="1">
           <mxGeometry x="2470" y="1972.5" width="203" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-92" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;exitX=0.482;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8EdaSbIvQU8G8Ma4F1ci-91">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-92" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;exitX=0.482;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8EdaSbIvQU8G8Ma4F1ci-91" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="2599.79" y="2124.79" as="sourcePoint" />
             <mxPoint x="2592" y="2111" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-93" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-93" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2505.64" y="2021.5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-94" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.764285457105234;endAngle=0.5221378066508926;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-94" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.764285457105234;endAngle=0.5221378066508926;" parent="1" vertex="1">
           <mxGeometry x="3143.32" y="1980" width="203" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-95" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Verificacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-95" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Verificacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3218.3199999999997" y="2027.5" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8EdaSbIvQU8G8Ma4F1ci-96">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8EdaSbIvQU8G8Ma4F1ci-96" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2620" y="2559.21" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2708.66" y="2514.21" width="258" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-97" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-97" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="2860.16" y="2542.71" width="86.5" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="8EdaSbIvQU8G8Ma4F1ci-97">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" parent="8EdaSbIvQU8G8Ma4F1ci-97" vertex="1">
           <mxGeometry y="36" width="86.5" height="3" as="geometry" />
         </mxCell>
-        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-99" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Detalles de Publicacion&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8EdaSbIvQU8G8Ma4F1ci-99" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Detalles de Publicacion&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2718.66" y="2545.21" width="131.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2358.8199999999997" y="2344.35" width="258" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-2" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2510.3199999999997" y="2372.85" width="86.5" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rotation=-180;" vertex="1" parent="xSQJZ9H-JxL_KpXIUEZJ-2">
+          <mxGeometry y="36" width="86.5" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Control de Usuario&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2368.8199999999997" y="2375.35" width="131.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-6" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;exitX=0.526;exitY=0.942;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="3250.098" y="2117.996" as="sourcePoint" />
+            <mxPoint x="3226.32" y="2119.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.4685835209054995;endAngle=0.23994032026634074;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="2277.04" width="203" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-11" value="" style="shape=mxgraph.arrows2.wedgeArrow;html=1;bendable=0;startWidth=13.333333333333329;fillColor=strokeColor;defaultFillColor=invert;defaultGradientColor=invert;rounded=0;exitX=0.482;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSQJZ9H-JxL_KpXIUEZJ-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2349.79" y="2429.33" as="sourcePoint" />
+            <mxPoint x="2342" y="2415.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSQJZ9H-JxL_KpXIUEZJ-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Validacion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2255.64" y="2326.04" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
